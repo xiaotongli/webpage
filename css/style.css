@@ -35,6 +35,10 @@ header {
     text-align: center;
 }
 
+#logo {
+    width: 30px;
+}
+
 #navbar {
     display: block;
     text-transform: uppercase;
