@@ -168,6 +168,37 @@ h1 {
     color: #e29183;
 }
 
+.book-review {
+    margin: 20px;
+    width: 80%;
+    line-height: 1.5em;
+}
+
+.book-review a {
+    color: #9ac3ff;
+    text-decoration: none;
+}
+
+.book-review a:hover {
+    color: #e29183;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.book-cover-img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.book-quote {
+    margin-left: 40px;
+    font-style: italic;
+}
+
 /****** RESPONSIVE ******/
 
 @media screen and (min-width: 1051px) and (max-width: 1570px) {
@@ -256,18 +287,12 @@ h1 {
     .design-msg {
         opacity: 1;
     }
-    
-    .design-thumb {
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-    .design-img {
+    .design-img, .book-cover-img {
         width: 300px;
     }
 
-    .detailed-design-img-main, .detailed-design-desc, .detailed-design-img-more { /* some refactoring to do if properties all the same */
+    .design-thumb, .detailed-design-img-main, .detailed-design-desc, .detailed-design-img-more, .book-review { /* some refactoring to do if properties all the same */
         width: 300px;
         margin-left: auto;
         margin-right: auto;
